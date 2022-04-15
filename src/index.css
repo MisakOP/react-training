@@ -1,6 +1,4 @@
-
-  
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap");
 
 * {
   box-sizing: border-box;
@@ -9,7 +7,7 @@
 }
 
 body {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 .container {
@@ -65,12 +63,12 @@ body {
   justify-content: space-between;
 }
 
-input[type='checkbox'] {
+input[type="checkbox"] {
   margin-left: -4px;
   margin-right: 12px;
   transform: scale(1.5);
 }
-input{
+input {
   margin: 10px;
   padding: 11px;
 }
@@ -79,11 +77,11 @@ input{
   align-items: center;
   justify-content: space-between;
 }
-.image{
+.image {
   background-color: transparent;
 }
-.header{
-  display:flex;
+.header {
+  display: flex;
   justify-content: space-between;
 }
 .add-form {
@@ -118,13 +116,13 @@ input{
 
 .form-control-check input {
   flex: 2;
-  height: 20px;
+  height: 24px;
 }
 
 footer {
-  margin-top: 30px;
+  margin-top: 31px;
   text-align: center;
 }
-.input-box{
+.input-box {
   width: 300px;
 }

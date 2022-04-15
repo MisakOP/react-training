@@ -4,23 +4,6 @@ import Tasks from './components/Tasks'
 
 const App = () => {
 
-  //const [task, setTask] = useState([])
-  // const [userData, setUserData] = useState({
-  //   name: 'Misak',
-  //   role: 'admin',
-  // });
-
-  // setTimeout(() => {
-  //   setUserData({
-  //     name: 'Issa',
-  //     role: 'admin',
-  //   })
-  // }, 5000);
-
-  // setTimeout(() => {
-  //   userData.name = 'new name'
-  // }, 3000);
-  //const[showAddTask, setShowAddTask]= useState(false)
   const [ tasks , setTasks ]= useState([]);
 
 //Add Task

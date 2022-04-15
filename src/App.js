@@ -5,7 +5,6 @@ import Tasks from "./components/Tasks";
 const App = () => {
   const [tasks, setTasks] = useState([]);
 
-  //Add Task
   const handleAddTask = (task) => {
     const id = Math.floor(Math.random() * 10000) + 1;
     task.check = false;
